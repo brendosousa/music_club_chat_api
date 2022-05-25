@@ -1,0 +1,22 @@
+{
+  "name": "music_club_chat_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brendosousa/music_club_chat_api.git",
+  "author": "Brendo Sousa <brendo.n.s.sousa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.35",
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.7.2"
+  }
+}
