@@ -40,7 +40,7 @@ A tabela abaixo exibe os eventos que podem ser acessados através do servidor
 ### 3.1. **Conectando a uma sala**
 
 ```
-socket.emit("join", userId);
+socket.emit("join", idRoom);
 ```
 
 ### 3.2. **Enviando uma mensagem a uma sala**
